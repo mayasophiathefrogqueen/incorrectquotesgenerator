@@ -1,0 +1,213 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+  }
+  
+  #header {
+    text-align: center;
+  }
+  
+  #names {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 400px) {
+    #promptBox {
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      border: 2px solid #F6E2D7;
+      width: 250px;
+      line-hight: 50px;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    
+    #disclaimer{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      border: 2px solid #F6E2D7;
+      width: 250px;
+      line-hight: 50px;
+      padding-right: 5px;
+      padding-left: 5px;
+      list-style-position: inside;
+    }
+  }
+  
+  /* For Tablets */
+  @media screen and (min-width: 400px) and (max-width: 800px) {
+      #promptBox {
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      border: 2px solid #F6E2D7;
+      width: 450px;
+      line-hight: 50px;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    
+    #disclaimer{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      border: 2px solid #F6E2D7;
+      width: 450px;
+      line-hight: 50px;
+      padding-right: 5px;
+      padding-left: 5px;
+      list-style-position: inside;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    #promptBox {
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      border: 2px solid #F6E2D7;
+      width: 750px;
+      line-hight: 50px;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    
+    #disclaimer{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      border: 2px solid #5f3873;
+      width: 750px;
+      line-hight: 50px;
+      padding-right: 5px;
+      padding-left: 5px;
+      list-style-position: inside;
+    }
+  }
+  
+  #text1 {
+    border-radius: 15px;
+    border: 2px solid;
+    width: 100px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+  #text2 {
+    border-radius: 25px;
+    border: 2px solid;
+    width: 100px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+  #text3 {
+    border-radius: 25px;
+    border: 2px solid;
+    width: 100px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+  #text4 {
+    border-radius: 25px;
+    border: 2px solid;
+    width: 100px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+  #text5 {
+    border-radius: 25px;
+    border: 2px solid;
+    width: 100px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+  #text6 {
+    border-radius: 25px;
+    border: 2px solid;
+    width: 100px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: oblique;
+    text-align: center;
+  }
+  
+  #text2:disabled,
+  text2[disabled]{
+    border: 2px solid #e0c8c8;
+    background-color: #e3e3e3;
+    color: #666666;
+  }
+  
+  #text2:disabled,
+  text2[disabled]{
+    border: 2px solid #e0c8c8;
+    background-color: #e3e3e3;
+    color: #666666;
+  }
+  
+  #text3:disabled,
+  text3[disabled]{
+    border: 2px solid #e0c8c8;
+    background-color: #e3e3e3;
+    color: #666666;
+  }
+  
+  #text4:disabled,
+  text4[disabled]{
+    border: 2px solid #e0c8c8;
+    background-color: #e3e3e3;
+    color: #666666;
+  }
+  
+  #text5:disabled,
+  text5[disabled]{
+    border: 2px solid #e0c8c8;
+    background-color: #e3e3e3;
+    color: #666666;
+  }
+  
+  #text6:disabled,
+  text6[disabled]{
+    border: 2px solid #e0c8c8;
+    background-color: #e3e3e3;
+    color: #666666;
+  }
+  
+  #btnGenerate {
+    border-radius: 8px;
+    background-color: #e0c8c8;
+    border: 2px solid #5f3873;
+    line-height: 24px;
+    font-size: 14px;
+    background-color: #eed7fa;
+  }
+  
+  #btnGenerate:hover {
+    background-color: #e0c8c8;
+  }
+  
